@@ -57,12 +57,17 @@ markdown_extensions:
 nav:
   - Home: index.md
   - First Time Setup:
-    - Disclaimer: First Time Setup/Disclaimer.md
+    - Windows: First Time Setup/Windows.md
     - Visual Studio: First Time Setup/Visual Studio.md
     - Unreal Engine: First Time Setup/Unreal Engine.md
     - Wwise: First Time Setup/Wwise.md
     - Post Restart: First Time Setup/Post Restart.md
     - UE Project: First Time Setup/UE Project.md
+  - First Time Setup (Linux):
+    - Linux: First Time Setup Linux/Linux.md
+    - VMware Setup: First Time Setup Linux/VMware Setup.md
+    - Windows Setup: First Time Setup Linux/Windows Setup.md
+    - Work Setup: First Time Setup Linux/Work Setup.md
   - Tips: Tips/Tips.md
   - Wwise information: WwiseInfo/WwiseInfo.md
   - Audio Obstruction: Audio Obstruction/Audio Obstruction.md

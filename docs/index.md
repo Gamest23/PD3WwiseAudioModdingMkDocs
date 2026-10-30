@@ -4,7 +4,11 @@ icon: material/home
 
 # :material-alert: Unreal Engine 5 Update makes this documentation irrelevant, please wait for a port of this in the future :material-alert:
 
+# This is being actively updated, do not use this until finished
+
 # Welcome to the Payday 3 Wwise/Event Audio Modding Guide!
+
+Now a little more Linux Friendly
 
 Returning users from the original google doc, should go through the First Time Setup again. I promise this is the last time, and is required for proper following of the guides.
 
@@ -22,6 +26,8 @@ I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) :Icons-m
 
 I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
 
+If you use Linux, you can use [this tool](https://github.com/Lich-Corals/linux-file-converter-addon) to convert local files just as easy.
+
 ## Things to keep in mind
 
 All audio used for this is **REQUIRED** to be in the .wav format.
@@ -30,8 +36,9 @@ If you find some of the images hard to see, you can Right Click on them and "Ope
 
 Table of Contents can be found on the left, and right of each page/guide.
 
-You can navigate between pages with the arrows on the bottom of the page.
-**Some guides will instruct you to go to the next page.**
+## Getting started
+
+If you're starting out for the first time, navigate to the appropriate `First Time Setup` section on the left.
 
 ----
 

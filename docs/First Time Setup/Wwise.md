@@ -15,7 +15,7 @@ On the left side, there is a Wwise tab, click it
 
 At the bottom where it says to Install A New Version, change Latest to All
 
-Then under Major, select version 2023.1.15.8789
+Then under Major, select version 2023.1
 
 Then under Version, select version 2023.1.15.8789
 
