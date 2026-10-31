@@ -21,6 +21,16 @@ You are going to create a new project, name your project `PAYDAY3` and ensure yo
 
 Once you create the project, it will load the project itself. This may take a while depending on your CPU speed, this will only happen on the first launch.
 
+## Project Settings
+
+Go to Edit > Project Settings
+
+![](img/ProjectSettings.png)
+
+In the Search Bar, type in `Generate Chunks`
+
+And enable `Generate Chunks`
+
 ## :simple-wwise: Wwise Integration
 
 With the Unreal Project now open, navigate to `Tools` from the top, and click `New C++ Class`
@@ -78,3 +88,23 @@ At the top, you want to click `Build` then `Build Solution` (or press ++ctrl+shi
 Wait for it to build, you will know if it completed with the purple line turning gray at the bottom.
 
 Once completed, close Visual Studio and re-open your project.
+
+Go into Edit > Project Settings
+
+![](img/ProjectSettings.png)
+
+Scroll all the way to the bottom, and click on `Integration Settings`
+
+Change the "Root Output Path" with the 3 dots, to the GeneratedSoundBanks folder located in the root of your Wwise Project.
+
+Close Project Settings, and you should see the Wwise Browser on the right hand side.
+
+![](img/WwiseBrowser.png)
+
+If you don't see this, go to Window > Wwise Browser
+
+![](img/openwwisebrowser.png)
+
+## Finished
+
+That is all for the setup! You are now free to explore on your left to get general guiding on how to use Wwise.
