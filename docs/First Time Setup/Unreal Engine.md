@@ -28,9 +28,9 @@ Near where you just clicked, there should be the option to install a new version
 ![epicgames3](img/epicgames3.png)
 ![epicgames4](img/epicgames4.png)
 
-We do not want the latest version of UE, as Payday 3 uses version 5.5 as of Update 3.8
+We do not want the latest version of UE, as Payday 3 uses version 5.5.4 as of Update 3.8
 
-To change the version to install, click the version number and a small menu will appear with all the options. Just find 5.5 and click on it.
+To change the version to install, click the version number and a small menu will appear with all the options. Just find 5.5.4 and click on it.
 
 Then click install. A menu might pop up and say where you want to install this, just let it use the default location and click Install.
 

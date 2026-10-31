@@ -37,24 +37,8 @@ Then click Next. Ignore the next screen and click Install. And accept.
 
 This also might take a while, depending on your internet speed.
 
-Once the download is done, go to the Unreal Engine tab on the left
-
-![wwise4](img/wwise4.png)
-
-On the top right will be a Download… option, click it and click on the “Wwise Integration to use as an engine plug-in”
-
-![wwise5](img/wwise5.png)
-
-In the new menu, you want to replicate the version settings from before under the Integration version section.
-
-![wwise6](img/wwise6.png)
-
-Then under the Unreal Engine Version section, select Unreal Engine 4.27
-
-![wwise7](img/wwise7.png)
-
-Verify the fields, click download and accept.
-
 At this point, we have done a lot, to make sure everything will work smoothly, go ahead and restart your computer and continue.
 
-Next Page >>
+----
+
+[Post Restart](https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/Post%20Restart/)

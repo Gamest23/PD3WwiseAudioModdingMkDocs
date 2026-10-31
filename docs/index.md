@@ -22,11 +22,11 @@ It will also have the advantage of making mods smaller in size with compression 
 
 ## Tools to install
 
-I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) :Icons-mws_logo_white: here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
+Repak - I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) :Icons-mws_logo_white: here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
 
-I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
+File Converter - I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
 
-If you use Linux, you can use [this tool](https://github.com/Lich-Corals/linux-file-converter-addon) to convert local files just as easy.
+File Converter (Linux) - If you use Linux, you can use [this tool](https://github.com/Lich-Corals/linux-file-converter-addon) to convert local files just as easy.
 
 ## Things to keep in mind
 

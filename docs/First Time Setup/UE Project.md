@@ -2,106 +2,79 @@
 icon: simple/unrealengine
 ---
 
-# PD3 Audio UE Project
+# :simple-unrealengine: Blank UE Project
 
-Download this [.zip file](https://github.com/Gamest23/PD3AudioModdingUEProject/archive/refs/heads/main.zip) [:simple-github:](https://github.com/Gamest23/PD3AudioModdingUEProject) to your computer. (it’s  1.2 GB so wait a little)
+In the Epic Games launcher, open Unreal Engine (aka the Unreal Editor).
 
-Once done, open the .zip file. Make a folder on your desktop (name it whatever you want) and put the contents of that .zip file inside that new folder.
-You can extract the contents by selecting all of them, right click, copy files, right click inside the new folder, and paste.
+First time opening it may take a while.
 
-![UEProj1](img/UEProj1.png) Windows 11 right click copy
+!!! info
+    If you're using VMware, you may see this:
 
-![UEProj2](img/UEProj2.png)Alt. Right click menu copy
+    ![](img/resolutionerror.png)
 
+    Click yes
 
-Once it’s in a new folder, double-click the PAYDAY3.uproject to open the UE project. A pop-up will appear, click Yes.
+You are going to create a new project, name your project `PAYDAY3` and ensure you don't have any starter content.
 
-![UEProj3](img/UEProj3.png)
+![](img/CreatProj.png)
 
-This process will take some time, speed will be dependent on how fast your CPU is.
+Once you create the project, it will load the project itself. This may take a while depending on your CPU speed, this will only happen on the first launch.
 
-----
+## :simple-wwise: Wwise Integration
 
-If a pop-up does not appear, and doesn't know what app to open for this file format. First open Epic Games and into the Unreal Engine tab, there should be a prompt to have this file extension open Unreal Engine by default.
+With the Unreal Project now open, navigate to `Tools` from the top, and click `New C++ Class`
 
-If there isn’t, go into windows settings, Apps, then Default Apps. At the top, search for .uproject and something similar to the image should appear.
+![](img/CClass.png)
 
-![DefaultApp](img/Default%20App.png)
+By default, it'll select "None", that's fine.
 
-Click on the available option, scroll down to “Choose an app on your PC” and browse to:
+Click Next>
 
-`C:\Program Files\EpicGames\UE_4.27\Engine\Binaries\Win64`
+You can name it whatever you want, then click `Create Class`
 
-This is where Unreal Engine is installed by default. If you installed it somewhere else, go to where you specifically installed it and follow the folder path above starting at UE_4.27
+![](img/CreateClass.png)
 
-Within that folder, there is a .exe file named “UE4Editor.exe” either double click it, or select it with a left click and click open. You should now be able to open that .uproject file now.
+Once this appears, you click OK
 
-----
+![](img/RestartUE.png)
 
-Once it launches, it will ask you if you want to set up your wwise settings, click Yes.
+When this appears, click No
 
-![UEProj4](img/UEProj4.png) If this appears, just close it.
+![](img/NoCode.png)
 
-On the left column, scroll all the way to the bottom to see the Wwise section.
+And now Close Unreal Engine.
 
-Click Integration Settings, and look for the Installation section.
+Open the Wwise Launcher you previously installed, and navigate to Unreal Engine on the left side
 
-![UEProj5](img/UEProj5.png)
+![](img/wwise4.png)
 
-Click the 3 dots on the right side of the empty box, and it will open file explorer
+Click on `Integrate Wwise in Project...` next to the PAYDAY3 project.
 
-Navigate to the Wwise Project you just downloaded and extracted from the previous page.
+Make sure the Integration Version is the one you previously installed:
 
-And double-click the .wproj file inside.
+![](img/IntegrateVersion.png)
 
-Close the pop-up(s), ignore the prompt for restart.
+And under Wwise Project, make sure it points to the previously downloaded project.
 
-Find the option "Use Event-Based Packaging", and untick it. A prompt should open, just click OK.
+Then click Integrate.
 
-![](img/EventbasedPackagingOption.png)
+Once it's completed, go to your Unreal Engine project in file explorer. By default it's located in `Documnets/Unreal Projects`
 
-![](img/EventbasedPackagingOK.png)
+Where the Unreal Engine Project file is, there should be a similarly named .sln next to it.
 
-Now go into User Settings
+![](img/slnlocated.png)
 
-![](img/User%20Settings.png)
+If you don't see one, right click on the Unreal Engine Project file and click on `Generate Visual Studio project files`
 
-And enable "Auto Connect to WAAPI"
+Open the .sln file by double clicking it, it might prompt what app to use to open the file. Use Microsoft Visual Studio 2022.
 
-![](img/AutoConnect%20to%20WAAPI.png)
+Once open, it may give you a temporary guide, just skim through it and you're not required to login.
 
-Go back into Integration Settings, and have this field have `WwiseAudio`
+At the top, you want to click `Build` then `Build Solution` (or press ++ctrl+shift+b++)
 
-![](img/Wwise%20Sound%20Data%20Folder.png)
+![](img/BuildSolution.png)
 
-And re-enable "Use Event-Based Packaging", and click Yes.
+Wait for it to build, you will know if it completed with the purple line turning gray at the bottom.
 
-![](img/ClickYes.png)
-
-There should be a prompt to delete the `Init.bank`, go ahead an do so.
-
-Restart Unreal Engine (close Unreal Engine and re-open the PAYDAY3.uproject file)
-
-Go back into the Project Settings (Edit > Project Settings)
-
-![](img/Project%20Settings.png)
-
-Go to User Settings under Wwise, scroll to the bottom on the left side.
-
-Check if "Auto Connect to WAAPI" was disabled. If it was, re-enable it.
-
-And enable, “Enable Automatic Asset Synchronization”.
-
-![](img/Auto%20Asset%20Sync.png)
-
-Click “Save All”, then “Save Selected”
-
-![UEProoj6](img/UEProj6.png)
-
-Do one more restart of the Unreal Engine Project.
-
-And you're done! Browse the available guides on the left and get to moddin!
-
-I recommend you have both the Wwise Project, and Unreal Engine Project open at the same time whenever you are following a guide.
-
-There are some tips on the next page for stuff like, making multiple mods on a single Wwise Project and more!
+Once completed, close Visual Studio and re-open your project.

@@ -12,4 +12,6 @@ Download the .zip file, and extract it somewhere like your desktop (just the PD3
 
 You can open the project by opening the `Guide Project.wproj` file
 
-Next Page >>
+----
+
+[UE Project](https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/UE%20Project/)
