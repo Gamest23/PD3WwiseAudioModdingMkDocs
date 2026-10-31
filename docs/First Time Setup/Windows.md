@@ -25,7 +25,7 @@ There are 2 ways making mods at the moment.
 !!! note
     You could install apps/project files like the Unreal Engine, Wwise Project, and Unreal Projects somewhere other than the C: drive. Though errors you may encounter will require some low-level PC knowledge to be fixed.
 
-!!! note
+!!! info
     Creating custom heist jukebox add-on mods, or next to any jukebox add-on mods, will require the install of the Modkit
 
 If you wish to just use a blank Unreal Engine Project, then continue. If you wish to use the Modkit, then follow here [Payday 3 Modding Documentation](https://payday3-modding.github.io/Documentation/payday3-modding/index.html)
