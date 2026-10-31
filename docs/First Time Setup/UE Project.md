@@ -33,7 +33,7 @@ And enable `Generate Chunks`
 
 ## :simple-wwise: Wwise Integration
 
-With the Unreal Project now open, navigate to `Tools` from the top, and click `New C++ Class`
+Navigate to `Tools` from the top, and click `New C++ Class`
 
 ![](img/CClass.png)
 
