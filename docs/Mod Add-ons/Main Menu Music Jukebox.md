@@ -137,6 +137,6 @@ Once you find it, select and press OK.
 
 ## Paking
 
-Press ++ctrl+s++ to save, and open the Unreal Engine Project you downloaded in First Time Setup[^1^][1]
+Press ++ctrl+s++ to save, Ctrl + B to generate the event and open the Unreal Engine Project you downloaded in First Time Setup[^1^][1]
 
-Proceed to "[Paking Your Main Menu Jukebox Mod](../UE%20Main%20Menu%20Paking/Making%20it%20an%20Add-on.md)"
+Proceed to "[Forging Your Main Menu Jukebox Mod](../UE%20Main%20Menu%20Paking/Making%20it%20an%20Add-on.md)"

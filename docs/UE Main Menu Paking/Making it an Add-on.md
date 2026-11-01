@@ -61,5 +61,3 @@ When finished, save your PAL and forge your mod with the CrimeForge menu!
 ![Forge](img/forgeit.png)
 
 Finally grab the zip from your modkit's \Saved\ArchivedPlugins directory and you are done!
-
-Next Page >>
