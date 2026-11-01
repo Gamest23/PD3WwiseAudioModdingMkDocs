@@ -68,8 +68,9 @@ nav:
     - VMware Setup: First Time Setup Linux/VMware Setup.md
     - Windows Setup: First Time Setup Linux/Windows Setup.md
     - Work Setup: First Time Setup Linux/Work Setup.md
-  - Tips: Tips/Tips.md
-  - Wwise information: WwiseInfo/WwiseInfo.md
+  - Using Wwise:
+    - Structure: UsingWwise/Structure.md
+    - Wwise information: UsingWwise/WwiseInfo.md
   - Audio Obstruction: Audio Obstruction/Audio Obstruction.md
   - Standard Enemies SFX:
     - Walking: Enemies SFX/Standard/Walking.md
