@@ -20,17 +20,7 @@ This is their guide and documentation of the software/engine. [Welcome to Wwise 
 
 [Keyboard Shortcuts and Custom Commands](https://www.audiokinetic.com/fr/public-library/2023.1.19_8928/?source=Help&id=keyboard_shortcuts)
 
-## Random and Sequence Containers
-
-![RandomContainer](img/Random%20Container.png) Random Container
-
-A Random Container will play content inside the container randomly. (it’s in the name!)
-
-![SequenceContainer](img/Sequence%20Container.png) Sequence Container
-
-A Sequence Container will play a "playlist" of content in an order from top to bottom.
-
-## Icons
+## Containers and More
 
 ![AudioBus](img/Audio%20Bus.png) [Audio Bus](https://www.audiokinetic.com/en/public-library/2025.1.12_9287/?source=Help&id=building_structure_of_output_busses#the_master_audio_bus_hierarchy)
 

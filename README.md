@@ -22,27 +22,19 @@ https://gamest23.github.io/PD3WwiseAudioModding
 
 Clone this Repo
 
-### Either run Command Prompt inside root folder, and run the following:
+### Run Command Prompt inside root folder, and run the following:
+
+Installing/Updating
 
 `pip install mkdocs-material` or `'venv/bin/pip' install mkdocs-material`
 
 `pip install mkdocs-open-in-new-tab` or `'venv/bin/pip' install mkdocs-open-in-new-tab`
 
-`python -m venv venv` only do this once
-
-`.\venv\Scripts\activate` or `source venv/bin/activate` or `source venv/bin/activate.fish` to activate the virtual environment
-
-`mkdocs serve` to begin running the website locally (127.0.0.1:8000)
-
-### Or open the root folder in Visual Studio Code, and in the terminal section run the following:
-
-`pip install mkdocs-material` or `'venv/bin/pip' install mkdocs-material`
-
-`pip install mkdocs-open-in-new-tab` or `'venv/bin/pip' install mkdocs-open-in-new-tab`
+Running environment
 
 `python -m venv venv` only do this once
 
-`.\venv\Scripts\activate` or `source venv/bin/activate` or `source venv/bin/activate.fish` to activate the virtual environment
+`.\venv\Scripts\activate` or `source venv/bin/activate.fish` to activate the virtual environment
 
 `mkdocs serve` to begin running the website locally (127.0.0.1:8000)
 
