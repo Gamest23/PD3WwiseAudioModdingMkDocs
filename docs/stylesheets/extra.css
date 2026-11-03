@@ -1,4 +1,4 @@
-/* MWS Icon with Dark mode and Light Mode */
+/* Seperate icons for light and dark mode */
 [data-md-color-scheme="default"] .dark {
     display: none;
 }
