@@ -23,7 +23,7 @@ Running another operating system is not a light task, especially for the purpose
 
 [Officially](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/7-0/esx-upgrade/upgrading-esxi-hosts-upgrade/esxi-requirements-upgrade/esxi-hardware-requirements-upgrade.html), the hardware requirements are as follows:
 
-- At least 2 CPU cores
+- 2 CPU cores
 
 - 8GB of *physical* memory/RAM
 
@@ -31,7 +31,7 @@ Running another operating system is not a light task, especially for the purpose
 
 **Though** in reality you are going to need:
 
-- At least 6 CPU cores from 2017 (8th gen Intel or 3000 series of Ryzen AMD)
+- 6 CPU cores from 2017 (8th gen Intel or 3000 series of Ryzen AMD)
 
 - 16gb of *physical* memory/RAM
 

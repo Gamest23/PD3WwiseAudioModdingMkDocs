@@ -1,0 +1,7 @@
+/* MWS Icon with Dark mode and Light Mode */
+[data-md-color-scheme="default"] .dark {
+    display: none;
+}
+[data-md-color-scheme="slate"] .light {
+    display: none;
+}

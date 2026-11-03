@@ -27,6 +27,10 @@ theme:
      - navigation.footer
      - navigation.path
 
+# CSS
+extra_css:
+  - stylesheets/extra.css
+
 # Plugins
 plugins:
   - open-in-new-tab
@@ -71,7 +75,6 @@ nav:
   - Using Wwise:
     - Structure: UsingWwise/Structure.md
     - Wwise information: UsingWwise/WwiseInfo.md
-  - Audio Obstruction: Audio Obstruction/Audio Obstruction.md
   - Standard Enemies SFX:
     - Walking: Enemies SFX/Standard/Walking.md
     - Guard Lure Interact: Enemies SFX/Standard/Guard Lure Interact.md
