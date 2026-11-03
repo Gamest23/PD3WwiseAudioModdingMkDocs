@@ -1,6 +1,6 @@
 MWS Logo/Icon:
 
-<span class="only-dark">:Icons-mws_logo_white:</span> <span class="only-light">:Icons-mws_logo_black:</span>
+<span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span>
 
 :Icons-mws_logo_black:
 :Icons-mws_logo_white:
