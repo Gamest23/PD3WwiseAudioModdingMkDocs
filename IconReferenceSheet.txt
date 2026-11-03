@@ -13,6 +13,7 @@ Wwise Icons:
 
 :Wwise-actormixer:
 :Wwise-attenuation:
+:Wwise-audiobus:
 :Wwise-blendercontainer:
 :Wwise-event:
 :Wwise-folder:
@@ -20,7 +21,6 @@ Wwise Icons:
 :Wwise-musicplaylist:
 :Wwise-musicsegment:
 :Wwise-musictrack:
-:Wwise-outputbus:
 :Wwise-randomcontainer:
 :Wwise-sequencecontainer:
 :Wwise-soundsfx:

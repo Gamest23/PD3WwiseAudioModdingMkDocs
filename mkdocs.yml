@@ -74,8 +74,10 @@ nav:
     - Work Setup: First Time Setup Linux/Work Setup.md
   - Using Wwise:
     - Structure: UsingWwise/Structure.md
-    - Switches: UsingWwise/Switches.md
     - Output Buses: UsingWwise/Output Buses.md
+    - Switches: UsingWwise/Switches.md
+    - States: UsingWwise/States.md
+    - Parameters: UsingWwise/Parameters.md
     - Wwise information: UsingWwise/WwiseInfo.md
   - Standard Enemies SFX:
     - Walking: Enemies SFX/Standard/Walking.md
