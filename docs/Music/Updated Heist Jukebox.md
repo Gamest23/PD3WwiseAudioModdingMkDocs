@@ -1,5 +1,5 @@
 ---
-icon: material/music
+icon: material/music-box-multiple
 ---
 
 [1]: https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/UE%20Project/

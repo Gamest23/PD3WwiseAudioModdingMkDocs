@@ -16,7 +16,7 @@ Let's get one thing out of the way, you don't want to login into your microsoft 
 
 When Prompted to login, press ++shift+f10++ on your keyboard. Command prompt should show.
 
-Type in the following: `start ms-cxh:localonly` and press ++enter++
+Type in the following: `start ms-cxh:localonly` and press ++enter++.
 
 It should prompt you for creating a local account instead.
 
@@ -28,7 +28,7 @@ Go ahead and run Windows and Microsoft Store updates. It might take a while.
 
 Once all updates are installed, you want to install VMware Tools.
 
-At the top bar for VMware, go to VM > install VMware Tools
+At the top bar for VMware, go to VM > install VMware Tools.
 
 It might prompt you to download the Tools, go ahead and do so.
 
@@ -44,9 +44,9 @@ Typical install is what you want. Your screen may flash during install, and it m
 
 ## Debloat
 
-There are multiple ways to debloat windows and reduce its size. I do not recommend you use something like [Atlas OS](https://atlasos.net/).
+There are multiple ways to debloat windows and reduce its size. I do not recommend you use something like [Atlas OS](https://atlasos.net/) :simple-atlasos:.
 
-The tool I recommend you use is [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil)
+The tool I recommend you use is [Chris Titus Tech's Windows Utility](https://github.com/ChrisTitusTech/winutil).
 
 You can either use a preset, or go through and choose what you do and do not need.
 

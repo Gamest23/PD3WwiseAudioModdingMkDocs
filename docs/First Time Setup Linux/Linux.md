@@ -6,7 +6,7 @@ icon: simple/linux
 
 Unfortunately, there is no way to make Wwise Event mods "natively" on linux. Even with Wine or its forks like Proton.
 
-This is due to Visual Studio 2022, as far as I'm concerned this cannot be "installed" within a Wine environment and have Unreal Engine/Wwise Launcher recognize it.
+This is due to [Visual Studio 2022](https://visualstudio.microsoft.com/downloads/), as far as I'm concerned this cannot be "installed" within a Wine environment and have Unreal Engine/Wwise Launcher recognize it.
 
 Currently the "best" way is to install a virtual machine software and set up Windows. 
 

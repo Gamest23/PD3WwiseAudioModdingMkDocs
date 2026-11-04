@@ -4,7 +4,7 @@ icon: material/microsoft-visual-studio
 
 # Visual Studio
 
-Download the installer [here](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:084c1b134b364f3f90596b7f7010f501)
+Download the installer [here](https://c2rsetup.officeapps.live.com/c2r/downloadVS.aspx?sku=community&channel=Release&version=VS2022&source=VSLandingPage&cid=2030:084c1b134b364f3f90596b7f7010f501) :material-microsoft-visual-studio:
 
 Open the installer, and go through the initial steps until you reach a screen like this:
 

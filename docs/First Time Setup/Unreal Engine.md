@@ -4,7 +4,7 @@ icon: simple/unrealengine
 
 # Unreal Engine
 
-We need a specific version of Unreal Engine. To install Unreal Engine, we need the [Epic Games Launcher](https://store.epicgames.com/en-US/download) (don’t worry, it won't add Fortnite to your account). Yes, you do need to make an account if you already don’t have one.
+We need a specific version of Unreal Engine. To install Unreal Engine, we need the [Epic Games Launcher](https://store.epicgames.com/en-US/download) :simple-epicgames: (don’t worry, it won't add Fortnite to your account). Yes, you do need to make an account if you already don’t have one.
 
 While you’re in the Epic Games Launcher, go ahead and claim the free game of the week on the Store tab of the app. You can do this every week, and it is a different game, just a gamer tip.
 
