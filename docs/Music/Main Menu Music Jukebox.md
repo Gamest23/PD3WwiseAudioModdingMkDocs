@@ -5,9 +5,9 @@ icon: material/music-box-multiple
 [1]: https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/UE%20Project/
 [3]: https://gamest23.github.io/PD3WwiseAudioModding/WwiseInfo/WwiseInfo/
 
-This guide is an add-on to [Main Menu Jukebox (WIP)](https://modworkshop.net/mod/47925) <span class="dark"><span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span></span> <span class="light">:Icons-mws_logo_black:</span>
+This guide is an add-on to [Main Menu Jukebox (WIP)](https://modworkshop.net/mod/47925) :Icons-mws_logo:
 
-Guide Contributors/thanks: [ZeroZM0](https://modworkshop.net/user/zerozm) <span class="dark"><span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span></span> <span class="light">:Icons-mws_logo_black:</span> [Pol1us](https://modworkshop.net/user/pol1us) <span class="dark"><span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span></span> <span class="light">:Icons-mws_logo_black:</span>
+Guide Contributors/thanks: [ZeroZM0](https://modworkshop.net/user/zerozm) :Icons-mws_logo: [Pol1us](https://modworkshop.net/user/pol1us) :Icons-mws_logo:
 
 ## Work Unit Download
 

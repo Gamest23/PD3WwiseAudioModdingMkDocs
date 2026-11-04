@@ -1,7 +1,10 @@
 /* Seperate icons for light and dark mode */
-[data-md-color-scheme="default"] .dark {
-    display: none;
+[data-md-color-scheme="default"] {
+    --currentColor: #000000;
 }
-[data-md-color-scheme="slate"] .light {
-    display: none;
+[data-md-color-scheme="slate"] {
+    --currentColor: #FFFFFF;
+}
+.md-typeset svg {
+    color: var(--currentColor);
 }

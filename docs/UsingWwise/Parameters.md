@@ -1,5 +1,5 @@
 ---
-icon: Wwise/24/gameparameter
+icon: Wwise/nav/gameparameter
 ---
 
 # Parameters

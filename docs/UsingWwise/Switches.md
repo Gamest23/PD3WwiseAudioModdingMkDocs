@@ -1,5 +1,5 @@
 ---
-icon: Wwise/24/switchgroup
+icon: Wwise/nav/switchgroup
 ---
 
 # Switches

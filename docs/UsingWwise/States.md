@@ -1,5 +1,5 @@
 ---
-icon: Wwise/24/stategroup
+icon: Wwise/nav/stategroup
 ---
 
 # States

@@ -12,7 +12,7 @@ Now a little more Linux Friendly
 
 Returning users from the original google doc, should go through the First Time Setup again. I promise this is the last time, and is required for proper following of the guides.
 
-“What are the benefits of replacing audio with Events instead of just using [this](https://modworkshop.net/mod/51045) <span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span>?”
+“What are the benefits of replacing audio with Events instead of just using [this](https://modworkshop.net/mod/51045) :Icons-mws_logo:?”
 
 Some of the more “simple” mods can use the PD3AudioModder tool, like replacing some small sound effects in the game. But some audio can have some strict expectations and can play weird/cut off with just simply replacing the audio directly without Wwise Events, or can even be impossible because of the way audio is handled in Papaya 3.
 
@@ -22,7 +22,7 @@ It will also have the advantage of making mods smaller in size with compression 
 
 ## Tools to install
 
-Repak - I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) <span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span></span> here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
+Repak - I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) :Icons-mws_logo: here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
 
 File Converter - I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
 

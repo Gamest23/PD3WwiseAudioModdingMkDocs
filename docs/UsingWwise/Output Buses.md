@@ -1,5 +1,5 @@
 ---
-icon: Wwise/24/audiobus
+icon: Wwise/nav/audiobus
 ---
 
 # Output Buses

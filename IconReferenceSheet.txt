@@ -1,9 +1,6 @@
 MWS Logo/Icon:
 
-<span class="dark">:Icons-mws_logo_white:</span> <span class="light">:Icons-mws_logo_black:</span>
-
-:Icons-mws_logo_black:
-:Icons-mws_logo_white:
+:Icons-mws_logo:
 
 
 
@@ -34,6 +31,36 @@ Wwise Icons:
 :Wwise-switchgroup:
 :Wwise-transition:
 :Wwise-workunit:
+
+Wwise Nav Icons:
+
+:Wwise-nav-actormixer:
+:Wwise-nav-attenuation:
+:Wwise-nav-audiobus:
+:Wwise-nav-blendercontainer:
+:Wwise-nav-event:
+:Wwise-nav-folder:
+:Wwise-nav-gameparameter:
+:Wwise-nav-musicplaylist:
+:Wwise-nav-musicsegment:
+:Wwise-nav-musictrack:
+:Wwise-nav-randomcontainer:
+:Wwise-nav-sequencecontainer:
+:Wwise-nav-soundsfx:
+:Wwise-nav-soundvoice:
+:Wwise-nav-state:
+:Wwise-nav-switchcontainer:
+:Wwise-nav-switchgroup:
+:Wwise-nav-transition:
+:Wwise-nav-workunit:
+
+
+
+Fmodel:
+
+:Fmodel-fmodel:
+:Fmodel-fmodelmono:
+:Fmodel-fmodelcolor:
 
 
 

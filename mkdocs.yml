@@ -72,6 +72,7 @@ nav:
     - VMware Setup: First Time Setup Linux/VMware Setup.md
     - Windows Setup: First Time Setup Linux/Windows Setup.md
     - Work Setup: First Time Setup Linux/Work Setup.md
+  - Fmodel: Fmodel/Fmodel.md
   - Using Wwise:
     - Structure: UsingWwise/Structure.md
     - Output Buses: UsingWwise/Output Buses.md
