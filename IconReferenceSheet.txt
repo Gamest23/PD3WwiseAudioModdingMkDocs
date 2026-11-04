@@ -64,6 +64,12 @@ Fmodel:
 
 
 
+General Icons, Emojis:
+
+https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/
+
+
+
 Keyboard keys:
 
 https://squidfunk.github.io/mkdocs-material/reference/formatting/#adding-keyboard-keys
