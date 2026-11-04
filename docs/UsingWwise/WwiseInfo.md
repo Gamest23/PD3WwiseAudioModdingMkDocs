@@ -8,7 +8,7 @@ This page is to help identify and know Containers, icons identification, and mor
 
 These guides use version `2023.1.15.8789`
 
-This is their guide and documentation of the software/engine. [Welcome to Wwise 2023.1.19](https://www.audiokinetic.com/en/public-library/2023.1.19_8928/?source=Help&id=welcome_to_wwise)
+This is their guide and documentation of the software/engine (warning light mode). [Welcome to Wwise 2023.1.19](https://www.audiokinetic.com/en/public-library/2023.1.19_8928/?source=Help&id=welcome_to_wwise)
 
 (the version number does not match completely, though will still be accurate)
 

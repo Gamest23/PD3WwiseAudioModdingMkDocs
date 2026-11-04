@@ -40,19 +40,19 @@ The example image shows a rough visual on the overall structure and behaviour of
 ??? ":Wwise-randomcontainer: The Random Container(s)"
     They play a playlist, though in this case it plays *one* of them randomly and ends. This is the behaviour by default.
 
-??? ":Wwise-outputbus: Output Bus"
+??? ":Wwise-audiobus: Output Bus"
     The output bus, for the sake of simplicity, is the assignment of the in-game volume controls.
 
 ??? "Listener Relative Routing"
-    3D Spatialization are factors you want to have when audio is playing externally from the player (you). Whether you want Position to be considered, and or Orientation (where the player's camera is facing) to be considered as well.
+    ^^3D Spatialization^^ are factors you want to have when audio is playing externally from the player (you). Whether you want Position to be considered, and or Orientation (where the player's camera is facing) to be considered as well.
 
-    Speaker Panning/3D Spatialization Mix value is how aggressive do you want the external source to be playing in a speaker direction. For example, stereo has 2 channels/speakers, left and right, having this field at 100 would mean if it is playing in the player's left side would *only* play on their left ear. Having it at 0 would essentially mean a mono output, where it would play in both channels at equal levels in stereo.
+    ^^Speaker Panning/3D Spatialization Mix value^^ is how aggressive do you want the external source to be playing in a speaker direction. For example, stereo has 2 channels/speakers, left and right, having this field at 100 would mean if it is playing in the player's left side would *only* play on their left ear. Having it at 0 would essentially mean a mono output, where it would play in both channels at equal levels in stereo.
 
 ??? ":Wwise-attenuation: Attenuation"
-    This is only used, at least in our use case, for having distance be considered in lowering the volume when further away from the source. A lot of the time you want to use the value used in-game.
+    This is only used, at least in our use case, for having distance be considered in lowering the volume when further away from the source. A lot of the time you want to use the value used in-game, which will be provided in the guides.
 
 ??? "Diffraction and Transmission"
-    This toggle option does 1 thing. Whether you want the audio to passthrough walls and floors or not. If you want the audio to respect walls and floors, enable it.
+    This toggle option does one thing. Whether you want the audio to passthrough walls and floors or not. If you want the audio to respect walls and floors, enable it.
 
 There is a lot to consider when making mods with Wwise, though at the same time it offers almost absolute control for your audio mods in behaviour completely.
 

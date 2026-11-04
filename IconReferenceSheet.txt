@@ -5,9 +5,13 @@ MWS Logo/Icon:
 :Icons-mws_logo_black:
 :Icons-mws_logo_white:
 
+
+
 Payday 3 Icon:
 
 :Icons-logo:
+
+
 
 Wwise Icons:
 
@@ -30,3 +34,11 @@ Wwise Icons:
 :Wwise-switchgroup:
 :Wwise-transition:
 :Wwise-workunit:
+
+
+
+Keyboard keys:
+
+https://squidfunk.github.io/mkdocs-material/reference/formatting/#adding-keyboard-keys
+
+https://facelessuser.github.io/pymdown-extensions/extensions/keys/#extendingmodifying-key-map-index
