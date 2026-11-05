@@ -33,6 +33,16 @@ In the Search Bar, type in `Generate Chunks`
 
 And enable `Generate Chunks`
 
+![](img/GenerateChunks.png)
+
+## Shipping Toggle
+
+Click `Platforms` near the top.
+
+Hover over Windows and enable `Shipping`
+
+![](img/Platforms.png)
+
 ## :simple-wwise: Wwise Integration
 
 Navigate to `Tools` from the top, and click `New C++ Class`
