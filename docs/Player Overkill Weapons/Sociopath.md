@@ -5,7 +5,7 @@ icon: material/baseball-bat
 [1]: https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/UE%20Project/
 [3]: https://gamest23.github.io/PD3WwiseAudioModding/WwiseInfo/WwiseInfo/
 
-Guide Contributors/thanks: [ZeroZM0](https://modworkshop.net/user/zerozm) :Icons-mws_logo:
+Guide Contributors/thanks: [ZeroZM0](https://modworkshop.net/user/zerozm) <span class="dark">:Icons-mws_logo_white:</span><span class="light">:Icons-mws_logo_black:</span>
 
 ## Work Unit Download
 

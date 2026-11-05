@@ -172,7 +172,7 @@ validation:
 # Footer
 extra:
   social:
-      - icon: simple/github
+      - icon: fontawesome/brands/github
         link: https://github.com/Gamest23/PD3WwiseAudioModding
       - icon: Icons/mws_logo_white
         link: https://modworkshop.net/user/gamest23
