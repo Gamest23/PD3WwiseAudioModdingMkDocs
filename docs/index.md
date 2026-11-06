@@ -2,7 +2,7 @@
 icon: material/home
 ---
 
-# :material-alert: Unreal Engine 5 Update makes this documentation irrelevant, please wait for a port of this in the future :material-alert:
+# :material-alert: Unreal Engine 5 Update makes this documentation irrelevant, please go here https://gamest23.github.io/PD3WwiseAudioModding/ :material-alert:
 
 # Welcome to the Payday 3 Wwise/Event Audio Modding Guide!
 
