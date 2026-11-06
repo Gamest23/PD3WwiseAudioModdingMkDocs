@@ -2,121 +2,106 @@
 icon: simple/unrealengine
 ---
 
-# Unreal Project
+# PD3 Audio UE Project
 
-## :simple-unrealengine: Blank UE Project
+Download this [.zip file](https://github.com/Gamest23/PD3AudioModdingUEProject/archive/refs/heads/main.zip) [:simple-github:](https://github.com/Gamest23/PD3AudioModdingUEProject) to your computer. (it’s  1.2 GB so wait a little)
 
-In the Epic Games launcher, open Unreal Engine (aka the Unreal Editor).
+Once done, open the .zip file. Make a folder on your desktop (name it whatever you want) and put the contents of that .zip file inside that new folder.
+You can extract the contents by selecting all of them, right click, copy files, right click inside the new folder, and paste.
 
-First time opening it may take a while.
+![UEProj1](img/UEProj1.png) Windows 11 right click copy
 
-!!! info
-    If you're using VMware, you may see this:
+![UEProj2](img/UEProj2.png)Alt. Right click menu copy
 
-    ![](img/resolutionerror.png)
 
-    Click yes
+Once it’s in a new folder, double-click the PAYDAY3.uproject to open the UE project. A pop-up will appear, click Yes.
 
-You are going to create a new project, name your project `PAYDAY3` and ensure you don't have any starter content.
+![UEProj3](img/UEProj3.png)
 
-![](img/CreatProj.png)
+This process will take some time, speed will be dependent on how fast your CPU is.
 
-Once you create the project, it will load the project itself. This may take a while depending on your CPU speed, this will only happen on the first launch.
+----
 
-## Project Settings
+If a pop-up does not appear, and doesn't know what app to open for this file format. First open Epic Games and into the Unreal Engine tab, there should be a prompt to have this file extension open Unreal Engine by default.
 
-Go to Edit > Project Settings
+If there isn’t, go into windows settings, Apps, then Default Apps. At the top, search for .uproject and something similar to the image should appear.
 
-![](img/ProjectSettings.png)
+![DefaultApp](img/Default%20App.png)
 
-In the Search Bar, type in `Generate Chunks`
+Click on the available option, scroll down to “Choose an app on your PC” and browse to:
 
-And enable `Generate Chunks`
+`C:\Program Files\EpicGames\UE_4.27\Engine\Binaries\Win64`
 
-![](img/GenerateChunks.png)
+This is where Unreal Engine is installed by default. If you installed it somewhere else, go to where you specifically installed it and follow the folder path above starting at UE_4.27
 
-## Shipping Toggle
+Within that folder, there is a .exe file named “UE4Editor.exe” either double click it, or select it with a left click and click open. You should now be able to open that .uproject file now.
 
-Click `Platforms` near the top.
+----
 
-Hover over Windows and enable `Shipping`
+Once it launches, it will ask you if you want to set up your wwise settings, click Yes.
 
-![](img/Platforms.png)
+![UEProj4](img/UEProj4.png) If this appears, just close it.
 
-## :simple-wwise: Wwise Integration
+On the left column, scroll all the way to the bottom to see the Wwise section.
 
-Navigate to `Tools` from the top, and click `New C++ Class`
+Click Integration Settings, and look for the Installation section.
 
-![](img/CClass.png)
+![UEProj5](img/UEProj5.png)
 
-By default, it'll select "None", that's fine.
+Click the 3 dots on the right side of the empty box, and it will open file explorer
 
-Click Next>
+Navigate to the Wwise Project you just downloaded and extracted from the previous page.
 
-You can name it whatever you want, then click `Create Class`
+And double-click the .wproj file inside.
 
-![](img/CreateClass.png)
+Close the pop-up(s), ignore the prompt for restart.
 
-Once this appears, you click OK
+Find the option "Use Event-Based Packaging", and untick it. A prompt should open, just click OK.
 
-![](img/RestartUE.png)
+![](img/EventbasedPackagingOption.png)
 
-When this appears, click No
+![](img/EventbasedPackagingOK.png)
 
-![](img/NoCode.png)
+Now go into User Settings
 
-And now Close Unreal Engine.
+![](img/User%20Settings.png)
 
-Open the Wwise Launcher you previously installed, and navigate to Unreal Engine on the left side
+And enable "Auto Connect to WAAPI"
 
-![](img/wwise4.png)
+![](img/AutoConnect%20to%20WAAPI.png)
 
-Click on `Integrate Wwise in Project...` next to the PAYDAY3 project.
+Go back into Integration Settings, and have this field have `WwiseAudio`
 
-Make sure the Integration Version is the one you previously installed:
+![](img/Wwise%20Sound%20Data%20Folder.png)
 
-![](img/IntegrateVersion.png)
+And re-enable "Use Event-Based Packaging", and click Yes.
 
-And under Wwise Project, make sure it points to the previously downloaded project.
+![](img/ClickYes.png)
 
-Then click Integrate.
+There should be a prompt to delete the `Init.bank`, go ahead an do so.
 
-Once it's completed, go to your Unreal Engine project in file explorer. By default it's located in `Documnets/Unreal Projects`
+Restart Unreal Engine (close Unreal Engine and re-open the PAYDAY3.uproject file)
 
-Where the Unreal Engine Project file is, there should be a similarly named .sln next to it.
+Go back into the Project Settings (Edit > Project Settings)
 
-![](img/slnlocated.png)
+![](img/Project%20Settings.png)
 
-If you don't see one, right click on the Unreal Engine Project file and click on `Generate Visual Studio project files`
+Go to User Settings under Wwise, scroll to the bottom on the left side.
 
-Open the .sln file by double clicking it, it might prompt what app to use to open the file. Use Microsoft Visual Studio 2022.
+Check if "Auto Connect to WAAPI" was disabled. If it was, re-enable it.
 
-Once open, it may give you a temporary guide, just skim through it and you're not required to login.
+And enable, “Enable Automatic Asset Synchronization”.
 
-At the top, you want to click `Build` then `Build Solution` (or press ++ctrl+shift+b++)
+![](img/Auto%20Asset%20Sync.png)
 
-![](img/BuildSolution.png)
+Click “Save All”, then “Save Selected”
 
-Wait for it to build, you will know if it completed with the purple line turning gray at the bottom.
+![UEProoj6](img/UEProj6.png)
 
-Once completed, close Visual Studio and re-open your project.
+Do one more restart of the Unreal Engine Project.
 
-Go into Edit > Project Settings
+And you're done! Browse the available guides on the left and get to moddin!
 
-![](img/ProjectSettings.png)
+I recommend you have both the Wwise Project, and Unreal Engine Project open at the same time whenever you are following a guide.
 
-Scroll all the way to the bottom, and click on `Integration Settings`
-
-Change the "Root Output Path" with the 3 dots, to the GeneratedSoundBanks folder located in the root of your Wwise Project.
-
-Close Project Settings, and you should see the Wwise Browser on the right hand side.
-
-![](img/WwiseBrowser.png)
-
-If you don't see this, go to Window > Wwise Browser
-
-![](img/openwwisebrowser.png)
-
-## Finished
-
-That is all for the setup! You are now free to explore on your left to get general guiding on how to use Wwise.
+There are some tips on the next page for stuff like, making multiple mods on a single Wwise Project and more!

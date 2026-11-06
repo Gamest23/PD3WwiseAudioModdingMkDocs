@@ -4,15 +4,11 @@ icon: material/home
 
 # :material-alert: Unreal Engine 5 Update makes this documentation irrelevant, please wait for a port of this in the future :material-alert:
 
-# This is being actively updated, do not use this until finished
-
 # Welcome to the Payday 3 Wwise/Event Audio Modding Guide!
-
-Now a little more Linux Friendly
 
 Returning users from the original google doc, should go through the First Time Setup again. I promise this is the last time, and is required for proper following of the guides.
 
-“What are the benefits of replacing audio with Events instead of just using [this](https://modworkshop.net/mod/51045) <span class="dark">:Icons-mws_logo_white:</span><span class="light">:Icons-mws_logo_black:</span>?”
+“What are the benefits of replacing audio with Events instead of just using [this](https://modworkshop.net/mod/51045) :Icons-mws_logo_white:?”
 
 Some of the more “simple” mods can use the PD3AudioModder tool, like replacing some small sound effects in the game. But some audio can have some strict expectations and can play weird/cut off with just simply replacing the audio directly without Wwise Events, or can even be impossible because of the way audio is handled in Papaya 3.
 
@@ -22,11 +18,9 @@ It will also have the advantage of making mods smaller in size with compression 
 
 ## Tools to install
 
-Repak - I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) <span class="dark">:Icons-mws_logo_white:</span><span class="light">:Icons-mws_logo_black:</span> here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
+I 100% recommend you add [this tool](https://modworkshop.net/mod/50337) :Icons-mws_logo_white: here to your system as well, as it makes packing your mod significantly easier (this guide also uses it within the steps).
 
-File Converter - I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
-
-File Converter (Linux) - If you use Linux, you can use [this tool](https://github.com/Lich-Corals/linux-file-converter-addon) to convert local files just as easy.
+I use [this tool](https://file-converter.io/?from=readme.md) to easily and locally convert files.
 
 ## Things to keep in mind
 
@@ -36,9 +30,8 @@ If you find some of the images hard to see, you can Right Click on them and "Ope
 
 Table of Contents can be found on the left, and right of each page/guide.
 
-## Getting started
-
-If you're starting out for the first time, navigate to the appropriate `First Time Setup` section on the left.
+You can navigate between pages with the arrows on the bottom of the page.
+**Some guides will instruct you to go to the next page.**
 
 ----
 

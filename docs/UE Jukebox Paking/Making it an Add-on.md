@@ -4,31 +4,45 @@ icon: simple/unrealengine
 
 # Making it an Add-on
 
-## Creating The Mod
+## Generate Sound Data...
 
-In Unreal Engine, you want to click the Crimeforge button at the top. In the new menu that pops up, you want to click “Create New Mod…”
+In Unreal Engine, you want to click the arrow next to “Build” at the top some-what right side. In the new menu that pops up, you want to click “Generate Sound Data…”
 
-![GenerateMod](img/CreateMod.png)
+![GenerateSD](img/GenerateSD.png)
 
-A menu should pop up, Make your mod a Jukebox Track Mod and fill in the relevant details.
+A menu should pop up, you want to click on “Generate”
 
-![CreateMod](img/CreateMod2.png)
-
-Once it’s done, you want to click on “Create Mod” on the lower right of the CrimeForge Window.
+Once it’s done, you want to click on “Save All” in the lower left of Unreal Engine, then click “Save Selected”.
 
 Since this is an add-on for the Updated Heist Jukebox, the steps are different.
 
 ## The Add-on part
 
-In the Content Browser, start here at your Mod's Plugin Folder:
+In the Content Browser, start here:
 
 ![Content](img/ContentFolder.png)
 
-You can click on your mod on the Crimeforge window to reach this spot
+You can click "Content" to reach this spot
 
-Open the included Data Asset for the Heist Track by double-clicking on it. (The one starting with DA_Track)
+Browse to:
 
-![DataAsset](img/PDA_HeistSoundtrack.png)
+Mods > HeistJukebox > Music
+
+![Music](img/MusicFolder.png)
+
+Right click the empty space, and click `Blueprint Class`
+
+![blueprint](img/Blueprint%20Class.png)
+
+With the new window that popped up, you want to search at the bottom for `PDA_HeistSoundtrack`
+
+![PDA](img/PDAHeisttrack.png)
+
+Click on it, and click Select
+
+I recommend you name it starting with `PDA_` then your song name. You can rename it by selecting it, and pressing ++f2++.
+
+Open the new Blueprint by double-clicking on it.
 
 The Name field will be the name that will appear in-game for the Jukebox Mod.
 
@@ -36,17 +50,10 @@ The Audio Event is going to be the Event you made for this. Click on the drop do
 
 Once you filled out both fields, click `Compile` on the top left.
 
-## Packaging The Audio
+![Creation](img/BlueprintCreation.png)
 
-After that you will now need to grab your mod's pal and drag your wwise events/Input the wwise events you wish to import to the Explicit Assets filed so its audio can be fetched and packaged with the mod you forge.
+You can close that editor.
 
-!!! note
-    Remember! You must drag your custom wwise events into your modkit's Wwise directory via the Wwise Browser so you can properly reference it! Make sure to always import them like how it shows in the Wwise Browser!
+Click on "Save All" in the lower left of Unreal Engine, then click “Save Selected”. Then it’s time to cook! (you’re almost there) click on “File” at the top left of Unreal Engine, and click “Cook Content for Windows” and wait for it to cook.
 
-![PAL](img/ExplicitAssetsReference.png)
-
-When finished, save your PAL and forge your mod with the CrimeForge menu!
-
-![Forge](img/forgeit.png)
-
-Finally grab the zip from your modkit's \Saved\ArchivedPlugins directory and you are done!
+Next Page >>

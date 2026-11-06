@@ -1,5 +1,5 @@
 site_name: Payday 3 Wwise/Event Audio Modding
-site_url: https://gamest23.github.io/PD3WwiseAudioModdingMkDocs/
+site_url: https://gamest23.github.io/PD3WwiseAudioModding/
 
 # Website Theme/Colors
 theme:
@@ -26,10 +26,6 @@ theme:
   features:
      - navigation.footer
      - navigation.path
-
-# CSS
-extra_css:
-  - stylesheets/extra.css
 
 # Plugins
 plugins:
@@ -61,25 +57,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - First Time Setup:
-    - Windows: First Time Setup/Windows.md
+    - Disclaimer: First Time Setup/Disclaimer.md
     - Visual Studio: First Time Setup/Visual Studio.md
     - Unreal Engine: First Time Setup/Unreal Engine.md
     - Wwise: First Time Setup/Wwise.md
     - Post Restart: First Time Setup/Post Restart.md
     - UE Project: First Time Setup/UE Project.md
-  - First Time Setup (Linux):
-    - Linux: First Time Setup Linux/Linux.md
-    - VMware Setup: First Time Setup Linux/VMware Setup.md
-    - Windows Setup: First Time Setup Linux/Windows Setup.md
-    - Work Setup: First Time Setup Linux/Work Setup.md
-  - Fmodel: Fmodel/Fmodel.md
-  - Using Wwise:
-    - Structure: UsingWwise/Structure.md
-    - Output Buses: UsingWwise/Output Buses.md
-    - Switches: UsingWwise/Switches.md
-    - States: UsingWwise/States.md
-    - Parameters: UsingWwise/Parameters.md
-    - Wwise information: UsingWwise/WwiseInfo.md
+  - Tips: Tips/Tips.md
+  - Wwise information: WwiseInfo/WwiseInfo.md
+  - Audio Obstruction: Audio Obstruction/Audio Obstruction.md
   - Standard Enemies SFX:
     - Walking: Enemies SFX/Standard/Walking.md
     - Guard Lure Interact: Enemies SFX/Standard/Guard Lure Interact.md
@@ -148,22 +134,26 @@ nav:
     - Radio Lure: Player Interactions/Radio Lure.md
   - Player Overkill Weapons:
     - Sociopath: Player Overkill Weapons/Sociopath.md
-  - Music:
-    - Main Menu Music Jukebox Edition: Music/Main Menu Music Jukebox.md
-    - Main Menu Music Event: Music/Main Menu Music Event.md
+  - Mod Add-ons:
+    - Main Menu Music Jukebox Edition: Mod Add-ons/Main Menu Music Jukebox.md
 #    - Pause Menu Music:
-    - Updated Heist Jukebox: Music/Updated Heist Jukebox.md
+    - Updated Heist Jukebox: Mod Add-ons/Custom Heist Music.md
   - Misc.:
+    - Main Menu Music Event: Misc/Main Menu Music Event.md
     - Phone Hacking Circle: Misc/Phone Hacking Circle.md
     - Overkill Delivery Drone: Misc/Overkill Delivery Drone.md
-  - PAL-ing Your Mod:
+  - Paking Your Mod:
     - Generate Sound Data: UE Paking/Generate Sound Data.md
     - Folder Sturcture: UE Paking/Folder Structure.md
     - Paking:  UE Paking/Paking.md
-  - PAL-ing Your Heist Jukebox Mod:
+  - Paking Your Heist Jukebox Mod:
     - Making it an Add-on: UE Jukebox Paking/Making it an Add-on.md
-  - PAL-ing Your Main Menu Jukebox Mod:
+    - Folder Sturcture: UE Jukebox Paking/Folder Structure.md
+    - Paking:  UE Jukebox Paking/Paking.md
+  - Paking Your Main Menu Jukebox Mod:
     - Making it an Add-on: UE Main Menu Paking/Making it an Add-on.md
+    - Folder Sturcture: UE Main Menu Paking/Folder Structure.md
+    - Paking:  UE Main Menu Paking/Paking.md
 
 # Validation rules
 validation:
@@ -172,7 +162,7 @@ validation:
 # Footer
 extra:
   social:
-      - icon: fontawesome/brands/github
+      - icon: simple/github
         link: https://github.com/Gamest23/PD3WwiseAudioModding
       - icon: Icons/mws_logo_white
         link: https://modworkshop.net/user/gamest23

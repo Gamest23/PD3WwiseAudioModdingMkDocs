@@ -2,18 +2,11 @@
 icon: simple/unrealengine
 ---
 
-## Epic Games
+# Unreal Engine
 
-We need a specific version of Unreal Engine. To install Unreal Engine, we need the [Epic Games Launcher](https://store.epicgames.com/en-US/download) :simple-epicgames: (don’t worry, it won't add Fortnite to your account). Yes, you do need to make an account if you already don’t have one.
+We need a specific version of Unreal Engine. To install Unreal Engine, we need the [Epic Games Launcher](https://store.epicgames.com/en-US/download) (don’t worry, it won't add Fortnite to your account). Yes, you do need to make an account if you already don’t have one.
 
 While you’re in the Epic Games Launcher, go ahead and claim the free game of the week on the Store tab of the app. You can do this every week, and it is a different game, just a gamer tip.
-
-!!! info
-    Optionally, if you don't want to use the Epic Games launcher as an actual game library, you can hide the store and library under settings.
-    
-    ![](img/HideLibrary.png)
-
-    Not shocking at all, it also makes it run faster.
 
 On the top left of the Epic Games Launcher, there will be 3 options. We want to select Unreal Engine.
 
@@ -28,9 +21,9 @@ Near where you just clicked, there should be the option to install a new version
 ![epicgames3](img/epicgames3.png)
 ![epicgames4](img/epicgames4.png)
 
-We do not want the latest version of UE, as Payday 3 uses version 5.5.4 as of Update 3.8
+We do not want the latest version of UE, as Payday 3 uses version 4.27.2
 
-To change the version to install, click the version number and a small menu will appear with all the options. Just find 5.5.4 and click on it.
+To change the version to install, click the version number and a small menu will appear with all the options. Just find 4.27.2 and click on it.
 
 Then click install. A menu might pop up and say where you want to install this, just let it use the default location and click Install.
 
@@ -38,8 +31,29 @@ This might take a while, depending on your internet speed. You can check your in
 
 ![epicgames5](img/epicgames5.png)
 
+Once it is done installing, you want to go to this website. [https://www.fab.com/](https://www.fab.com/) 
+
+Once on the website, click the person icon in the very top right.
+
+![epicgames6](img/epicgames6.png)
+
+It will prompt you to login into Epic Games, go ahead and do so.
+
+You first want to add [LE Extended Standard Library](https://www.fab.com/listings/0aadd41b-c02d-4f63-9009-bffad0070ebc) to your library
+
+As well the [Prefabricator](https://www.fab.com/listings/57a67b66-2248-48ba-a680-bb3e2e64d7e5) to your library
+
+Once they are added, in the Epic Games Launcher, they should appear under the Fab Library
+
+![epicgames7](img/epicgames7.png)
+
+Click “Install to Engine” and install it to UE.
+
+![epicgames8](img/epicgames8.png)
+
+Do this to both.
+Install time will vary depending on your internet speed.
+
 Once done, we can move on to Wwise.
 
-----
-
-[Installing Wwise](https://gamest23.github.io/PD3WwiseAudioModding/First%20Time%20Setup/Wwise/)
+Next Page >>
